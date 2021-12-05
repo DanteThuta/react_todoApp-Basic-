@@ -1,5 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Overpass:ital,wght@0,400;1,100&family=Poppins:wght@200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  background-color: #8af2a6;
+  font-family: "Poppins", sans-serif;
+}
+
+.App header {
+  background-color: #b3f5ff;
+}
+
+.App h2 {
+  font-size: 40px;
+  padding: 20px 10px;
 }
 
 .App-logo {
@@ -26,6 +43,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.todo-edit {
+  padding: 10px 10px;
+  background-color: yellow;
+  /* border: 0; */
+}
+
+.todo-delete {
+  padding: 10px 10px;
+  background-color: red;
 }
 
 @keyframes App-logo-spin {
